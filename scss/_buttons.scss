@@ -1,0 +1,49 @@
+// Buttons =====================================================================
+.btn {
+    border-width: $aero-button-border-width;
+    font-weight: lighter;
+    border-radius: $aero-button-border-rad;
+}
+.btn:hover {
+    background: linear-gradient($aero-gradient-top-hover 50%,$aero-gradient-bottom-hover 50%);
+    color: $aero-button-text-color;
+    border-color: $aero-button-border-color-primary;
+}
+
+.btn-primary {
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top 50%,$aero-gradient-bottom 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color-primary;
+    box-shadow: inset 0px 0px 0px $aero-button-border-width $aero-button-border-color-primary-inner;
+}
+.btn-secondary {
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top 50%,$aero-gradient-bottom 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color;
+}
+.btn-success{
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top-success 50%,$aero-gradient-bottom-success 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color;
+}
+.btn-danger{
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top-danger 50%,$aero-gradient-bottom-danger 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color;
+}
+.btn-warning{
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top-warning 50%,$aero-gradient-bottom-warning 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color;
+}
+.btn-info {
+    color: $aero-button-text-color;
+    background: linear-gradient($aero-gradient-top-info 50%,$aero-gradient-bottom-info 50%);
+    border-width: $aero-button-border-width;
+    border-color: $aero-button-border-color;
+}
