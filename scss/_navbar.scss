@@ -1,3 +1,13 @@
-.bg-primary {
-    background: linear-gradient(0,$aero-bg-top,$aero-bg-mid,$aero-bg-bottom);
+.bg-aero {
+    background: linear-gradient(180deg,#8AB8C1 0%,#69A2B0 48%,#69A2B0 48%,#156577 50%,#2C7583,#6AAFB6);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-color: #A6C1D3;
+}
+.bg-aero2 {
+    background: linear-gradient(180deg,#7FA6BF 0%,#6090B0 48%,#3A769C 48%,#044875 50%,#13527C,#67A3B8);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #A6C1D3;
 }
