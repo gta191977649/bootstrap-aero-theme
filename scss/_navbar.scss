@@ -1,8 +1,8 @@
 .bg-aero {
-    background: linear-gradient(180deg,#8AB8C1 0%,#69A2B0 48%,#69A2B0 48%,#156577 50%,#2C7583,#6AAFB6);
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
+    background: rgb(181,227,230);
+    background: linear-gradient(180deg, rgba(181,227,230,1) 0%, rgba(150,206,210,1) 25%, rgba(104,179,184,1) 45%, rgba(104,179,184,1) 48%, rgba(83,157,162,1) 49%, rgba(69,144,151,1) 50%, rgba(6,120,131,1) 75%, rgba(20,125,133,1) 100%);    text-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
     border-width: 1px;
-    border-color: #A6C1D3;
+    border-color: #7bb4c1;
 }
 .bg-aero2 {
     background: linear-gradient(180deg,#7FA6BF 0%,#6090B0 48%,#3A769C 48%,#044875 50%,#13527C,#67A3B8);

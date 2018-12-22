@@ -1,0 +1,140 @@
+.alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border-color: black;
+}
+
+.alert-heading {
+    color: inherit;
+}
+
+.alert-link {
+    font-weight: 700;
+}
+
+.alert-dismissible {
+    padding-right: 4rem;
+}
+
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.alert-primary {
+    background: rgb(0,113,176);
+    background: linear-gradient(90deg, rgba(0,113,176,1) 0%, rgba(0,188,255,1) 100%);
+    color: white;
+}
+
+.alert-primary hr {
+    border-top-color: #9fcdff;
+}
+
+.alert-primary .alert-link {
+    color: white;
+}
+
+.alert-secondary {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.alert-secondary hr {
+    border-top-color: #c8cbcf;
+}
+
+.alert-secondary .alert-link {
+    color: black;
+}
+
+.alert-success {
+    color: black;
+    background: rgb(199,222,137);
+    background: linear-gradient(90deg, rgba(199,222,137,1) 0%, rgba(246,248,226,1) 100%);
+}
+
+.alert-success hr {
+    border-top-color: #b1dfbb;
+}
+
+.alert-success .alert-link {
+    color: black;
+}
+
+.alert-info {
+    color: white;
+    background: rgb(4,68,110);
+    background: linear-gradient(90deg, rgba(4,68,110,1) 0%, rgba(4,110,89,1) 100%);
+}
+
+.alert-info hr {
+    border-top-color: #abdde5;
+}
+
+.alert-info .alert-link {
+    color: white;
+}
+
+.alert-warning {
+    background: rgb(243,177,3);
+    background: linear-gradient(90deg, rgba(243,177,3,1) 0%, rgba(254,204,73,1) 100%);
+    color: black;
+}
+
+.alert-warning hr {
+    border-top-color: #ffe8a1;
+}
+
+.alert-warning .alert-link {
+    color: black;
+}
+
+.alert-danger {
+    color: black;
+    background: rgb(219,153,193);
+    background: linear-gradient(90deg, rgba(219,153,193,1) 0%, rgba(255,233,249,1) 100%);
+}
+
+.alert-danger hr {
+    border-top-color: #f1b0b7;
+}
+
+.alert-danger .alert-link {
+    color: black;
+}
+
+.alert-light {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.alert-light hr {
+    border-top-color: #ececf6;
+}
+
+.alert-light .alert-link {
+    color: #040505;
+}
+
+.alert-dark {
+    color:white;
+    background: rgb(50,52,52);
+    background: linear-gradient(90deg, rgba(50,52,52,1) 0%, rgba(152,153,152,1) 100%);
+}
+
+.alert-dark hr {
+    border-top-color: #b9bbbe;
+}
+
+.alert-dark .alert-link {
+    color: white;
+}
