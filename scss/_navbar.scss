@@ -11,9 +11,16 @@
     border-style: solid;
     border-color: #A6C1D3;
 }
-.bg-aero-light {
+.bg-aero-vista {
     background: rgb(21,129,133);
     background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0) 25%),
     linear-gradient(180deg, rgba(21,129,133,0.7) 0%, rgba(47,145,142,0.7) 25%, rgba(63,155,147,0.7) 50%, rgba(92,173,154,0.7) 75%, rgba(142,217,168,0.7) 100%),
-    linear-gradient(90deg, rgba(63,155,147,0.7) 0%, rgba(46,174,170,0.7) 24%, rgba(84,200,149,0.7) 50%, rgba(102,179,156,1) 75%, rgba(70,168,158,0.7) 100%);
+    linear-gradient(90deg, rgba(63,155,147,1) 0%, rgba(46,174,170,1) 24%, rgba(84,200,149,1) 50%, rgba(102,179,156,1) 75%, rgba(70,168,158,1) 100%);
+}
+.bg-aero-win7 {
+    background: #153587;
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0) 25%),
+    linear-gradient(180deg, rgba(29,135,175,0.7) 0%, rgba(47,166,196,0.7) 25%, rgba(28,195,227,0.7) 50%, rgba(28,195,227,0.7) 75%, rgba(40,187,255,0.7) 100%),
+    linear-gradient(90deg, rgba(29,135,175,1) 0%, rgba(28,195,227,1) 25%, rgba(47,166,196,1) 50%, rgba(28,195,227,1) 75%, rgba(18,120,166,1) 100%);
+    
 }
