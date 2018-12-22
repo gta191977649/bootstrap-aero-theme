@@ -1,0 +1,18 @@
+.card {
+    border: $aero-border;
+    box-shadow: $aero-box-shadow;
+}
+.card-header {
+    margin: 0;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0.03);
+    text-shadow: $aero-text-shadow-light;
+}
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card-header+.list-group .list-group-item:first-child {
+    border-top: 0;
+}

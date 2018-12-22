@@ -3,3 +3,24 @@
 @import 'buttons';
 @import 'navbar';
 @import 'alert';
+@import 'card';
+
+// General Sytles
+body, form, p {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'メイリオ', Meiryo, Verdana, 'ＭＳ Ｐゴシック', Osaka, sans-serif;
+}
+
+h1,h2,h3,h4,h5 {
+    color:#036F87;
+}
+a {
+    color:#036F87;
+}
+a:hover {
+    color:#bf2640;
+}
+p {
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.1);
+}

@@ -11,3 +11,9 @@
     border-style: solid;
     border-color: #A6C1D3;
 }
+.bg-aero-light {
+    background: rgb(21,129,133);
+    background: linear-gradient(180deg, rgba(255,255,255,0.8) 0%, rgba(0,0,0,0) 25%),
+    linear-gradient(180deg, rgba(21,129,133,0.7) 0%, rgba(47,145,142,0.7) 25%, rgba(63,155,147,0.7) 50%, rgba(92,173,154,0.7) 75%, rgba(142,217,168,0.7) 100%),
+    linear-gradient(90deg, rgba(63,155,147,0.7) 0%, rgba(46,174,170,0.7) 24%, rgba(84,200,149,0.7) 50%, rgba(102,179,156,1) 75%, rgba(70,168,158,0.7) 100%);
+}
