@@ -1,0 +1,98 @@
+.badge {
+    border: $aero-border;
+}
+.badge-primary {
+    background: rgb(0,113,176);
+    background: linear-gradient(90deg, rgba(0,113,176,1) 0%, rgba(0,188,255,1) 100%);
+    color: white;
+}
+
+a.badge-primary:hover,
+a.badge-primary:focus {
+    color: #fff;
+    background-color: #0062cc;
+}
+
+.badge-secondary {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+a.badge-secondary:hover,
+a.badge-secondary:focus {
+    color: #fff;
+    background-color: #545b62;
+}
+
+.badge-success {
+    color: black;
+    background: rgb(199,222,137);
+    background: linear-gradient(90deg, rgba(199,222,137,1) 0%, rgba(246,248,226,1) 100%);
+}
+
+a.badge-success:hover,
+a.badge-success:focus {
+    color: #fff;
+    background-color: #1e7e34;
+}
+
+.badge-info {
+    color: white;
+    background: rgb(4,68,110);
+    background: linear-gradient(90deg, rgba(4,68,110,1) 0%, rgba(4,110,89,1) 100%);
+}
+
+a.badge-info:hover,
+a.badge-info:focus {
+    color: #fff;
+    background-color: #117a8b;
+}
+
+.badge-warning {
+    color: #212529;
+    background-color: #ffc107;
+}
+
+a.badge-warning:hover,
+a.badge-warning:focus {
+    background: rgb(243,177,3);
+    background: linear-gradient(90deg, rgba(243,177,3,1) 0%, rgba(254,204,73,1) 100%);
+    color: black;
+}
+
+.badge-danger {
+    color: black;
+    background: rgb(219,153,193);
+    background: linear-gradient(90deg, rgba(219,153,193,1) 0%, rgba(255,233,249,1) 100%);
+}
+
+a.badge-danger:hover,
+a.badge-danger:focus {
+    color: #fff;
+    background-color: #bd2130;
+}
+
+.badge-light {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+a.badge-light:hover,
+a.badge-light:focus {
+    color: #212529;
+    background-color: #dae0e5;
+}
+
+.badge-dark {
+    color:white;
+    background: rgb(50,52,52);
+    background: linear-gradient(90deg, rgba(50,52,52,1) 0%, rgba(152,153,152,1) 100%);
+}
+
+a.badge-dark:hover,
+a.badge-dark:focus {
+    color: #fff;
+    background-color: #1d2124;
+}

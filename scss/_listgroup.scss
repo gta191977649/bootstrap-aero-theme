@@ -1,0 +1,149 @@
+.list-group-item-primary {
+    background: rgb(0,113,176);
+    background: linear-gradient(90deg, rgba(0,113,176,1) 0%, rgba(0,188,255,1) 100%);
+    color: white;
+}
+
+.list-group-item-primary.list-group-item-action:hover,
+.list-group-item-primary.list-group-item-action:focus {
+    background: rgb(0,113,176);
+    background: linear-gradient(90deg, rgba(0,113,176,1) 0%, rgba(0,188,255,1) 100%);
+    color: white;
+}
+
+.list-group-item-primary.list-group-item-action.active {
+    color: #fff;
+    background-color: #004085;
+    border-color: #004085;
+}
+
+.list-group-item-secondary {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.list-group-item-secondary.list-group-item-action:hover,
+.list-group-item-secondary.list-group-item-action:focus {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.list-group-item-secondary.list-group-item-action.active {
+    color: #fff;
+    background-color: #383d41;
+    border-color: #383d41;
+}
+
+.list-group-item-success {
+    color: black;
+    background: rgb(199,222,137);
+    background: linear-gradient(90deg, rgba(199,222,137,1) 0%, rgba(246,248,226,1) 100%);
+}
+
+.list-group-item-success.list-group-item-action:hover,
+.list-group-item-success.list-group-item-action:focus {
+    color: #155724;
+    background-color: #b1dfbb;
+}
+
+.list-group-item-success.list-group-item-action.active {
+    color: black;
+    background: rgb(199,222,137);
+    background: linear-gradient(90deg, rgba(199,222,137,1) 0%, rgba(246,248,226,1) 100%);
+}
+
+.list-group-item-info {
+    color: white;
+    background: rgb(4,68,110);
+    background: linear-gradient(90deg, rgba(4,68,110,1) 0%, rgba(4,110,89,1) 100%);
+}
+
+.list-group-item-info.list-group-item-action:hover,
+.list-group-item-info.list-group-item-action:focus {
+    color: white;
+    background: rgb(4,68,110);
+    background: linear-gradient(90deg, rgba(4,68,110,1) 0%, rgba(4,110,89,1) 100%);
+}
+
+.list-group-item-info.list-group-item-action.active {
+    color: #fff;
+    background-color: #0c5460;
+    border-color: #0c5460;
+}
+
+.list-group-item-warning {
+    background: rgb(243,177,3);
+    background: linear-gradient(90deg, rgba(243,177,3,1) 0%, rgba(254,204,73,1) 100%);
+    color: black;
+}
+
+.list-group-item-warning.list-group-item-action:hover,
+.list-group-item-warning.list-group-item-action:focus {
+    background: rgb(243,177,3);
+    background: linear-gradient(90deg, rgba(243,177,3,1) 0%, rgba(254,204,73,1) 100%);
+    color: black;
+}
+
+.list-group-item-warning.list-group-item-action.active {
+    color: #fff;
+    background-color: #856404;
+    border-color: #856404;
+}
+
+.list-group-item-danger {
+    color: black;
+    background: rgb(219,153,193);
+    background: linear-gradient(90deg, rgba(219,153,193,1) 0%, rgba(255,233,249,1) 100%);
+}
+
+.list-group-item-danger.list-group-item-action:hover,
+.list-group-item-danger.list-group-item-action:focus {
+    color: black;
+    background: rgb(219,153,193);
+    background: linear-gradient(90deg, rgba(219,153,193,1) 0%, rgba(255,233,249,1) 100%);
+}
+
+.list-group-item-danger.list-group-item-action.active {
+    color: black;
+    background: rgb(219,153,193);
+    background: linear-gradient(90deg, rgba(219,153,193,1) 0%, rgba(255,233,249,1) 100%);
+}
+
+.list-group-item-light {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.list-group-item-light.list-group-item-action:hover,
+.list-group-item-light.list-group-item-action:focus {
+    background: rgb(167,167,167);
+    background: linear-gradient(90deg, rgba(167,167,167,1) 0%, rgba(224,224,224,1) 100%);
+    color: black;
+}
+
+.list-group-item-light.list-group-item-action.active {
+    color: #fff;
+    background-color: #818182;
+    border-color: #818182;
+}
+
+.list-group-item-dark {
+    color:white;
+    background: rgb(50,52,52);
+    background: linear-gradient(90deg, rgba(50,52,52,1) 0%, rgba(152,153,152,1) 100%);
+}
+
+.list-group-item-dark.list-group-item-action:hover,
+.list-group-item-dark.list-group-item-action:focus {
+    color: #1b1e21;
+    background-color: #b9bbbe;
+}
+
+.list-group-item-dark.list-group-item-action.active {
+    color: #fff;
+    background-color: #1b1e21;
+    border-color: #1b1e21;
+}
