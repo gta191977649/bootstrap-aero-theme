@@ -23,22 +23,22 @@
     linear-gradient(180deg, rgba(29,135,175,0.7) 0%, rgba(47,166,196,0.7) 25%, rgba(28,195,227,0.7) 50%, rgba(28,195,227,0.7) 75%, rgba(40,187,255,0.7) 100%),
     linear-gradient(90deg, rgba(29,135,175,1) 0%, rgba(28,195,227,1) 25%, rgba(47,166,196,1) 50%, rgba(28,195,227,1) 75%, rgba(18,120,166,1) 100%);
 }
+
 .bg-frosted-glass {
     /* 毛玻璃效果 */
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-right: 1px solid #1fc6e6;
     border-bottom: 1px solid #1fc6e6;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5), inset 0 1px rgba(255, 255, 255, 0.3), inset 0 10px rgba(255, 255, 255, 0.2), inset 0 10px 20px rgba(255, 255, 255, 0.25), inset 0 -15px 30px rgba(0, 0, 0, 0.3);
-    background: rgba(0, 0, 0, 0.10);
+    -webkit-backdrop-filter: blur(3px); 
+    /* Google Chrome */
+    backdrop-filter: blur(3px); 
 }
 .bg-frosted-glass-inner {
     border: $aero-border;
     background-color: white;
     padding: 0px;
-    margin-top: 15px;
-    margin-bottom: 15px;
     border-radius: 3px;
+  
 }
