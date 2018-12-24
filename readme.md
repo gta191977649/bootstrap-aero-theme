@@ -1,5 +1,5 @@
 # Bootstrap aero
-An aero theme for Bootstrap 4.1, since I hate currently popular web design, especially flat, so I've been looking for a long time for a theme that suits my aesthetic, but unfortunately, I didn't found any of them so I decided to make my own bootstrap 4 themes.
+An aero theme for Bootstrap 4.1, since I hate currently popular web design ui style, especially flat design, so I've been looking for a long time for a theme that suits my aesthetic, but unfortunately, I didn't found any of them so I decided to make my own bootstrap 4 themes.
 This time I turn to the previous version of windows vista / 7 aero style as the based of this theme. 
 # Preview
 ![alt text](preview.jpg "Demo")
