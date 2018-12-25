@@ -4,6 +4,9 @@
     font-weight: lighter;
     border-radius: $aero-button-border-rad;
 }
+.btn :active {
+    color:black;
+}
 .btn:hover {
     background: linear-gradient($aero-gradient-top-hover 50%,$aero-gradient-bottom-hover 50%);
     color: $aero-button-text-color;
@@ -47,3 +50,13 @@
     border-width: $aero-button-border-width;
     border-color: $aero-button-border-color;
 }
+.custom-control-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.btn > * > .active {
+    color: black !important;
+}
+
